@@ -1,16 +1,16 @@
-.container__menu-title {
-  color: white;
-}
-
 .container__menu-title > h1 {
   margin-top: 15px;
   margin-bottom: 15px;
   font-size: 135px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
+  color: #a81961;
+  text-shadow: 0px 0px 5px grey, 0px 0px 10px grey, 0px 0px 15px grey,
+    0px 0px 20px #1e0c42, 0px 0px 30px #1e0c42, 0px 0px 40px #1e0c42,
+    0px 0px 55px #1e0c42, 0px 0px 75px #1e0c42;
 }
-.container__menu-title > hr{
+.container__menu-title > hr {
   margin-top: 20px;
   margin-bottom: 5px;
 }
