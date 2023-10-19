@@ -1,5 +1,5 @@
-
-.container__articles
-{
-margin-top: 20px;
+.container__articles {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
