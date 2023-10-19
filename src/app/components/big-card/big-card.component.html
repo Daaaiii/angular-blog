@@ -5,13 +5,13 @@
 
   <div class="big-card__title">
     <h1>
-      <a href="/">{{ cardTitle }}</a>
+      <a [routerLink]="['content', Id]">{{ cardTitle }}</a>
     </h1>
   </div>
 
   <div class="big-card__description">
     <p>
-      <a href="">
+      <a [routerLink]="['content', Id]">
         {{ cardDescription }}
       </a>
     </p>
